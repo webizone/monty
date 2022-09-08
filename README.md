@@ -1,1 +1,1 @@
-Monty Python project done by Chijioke Madubuko and Joy Oboh
+0x19. C - Stacks, Queues - LIFO, FIFO by Madubuko Chijioke and Joy Oboh
