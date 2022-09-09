@@ -73,9 +73,11 @@ void free_stack(stack_t *head)
 		free(head);
 		head = temp;
 	}
-}#include "monty.h"
+}
+
+#include "monty.h"
 /**
- * addnode - add node to the head stack
+ * node - node to the head stack
  * @head: head of the stack
  * @n: new_value
  * Return: void
@@ -99,7 +101,7 @@ void addnode(stack_t **head, int n)
 }
 
 /**
- * addqueue - add node to queue
+ * queue - add node to queue
  * @n: new_value
  * @head: head of the queue
  * Return: void
@@ -134,7 +136,7 @@ void addqueue(stack_t **head, int n)
 }
 
 /**
- * free_stack - frees a doubly linked list
+ * stack - frees a doubly linked list
  * @head: head of the stack
 */
 void free_stack(stack_t *head)
